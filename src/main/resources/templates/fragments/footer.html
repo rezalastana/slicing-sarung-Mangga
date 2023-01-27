@@ -1,24 +1,18 @@
 <!-- Advanced footer -->
 <section xmlns:th="http://www.thymeleaf.org" th:fragment="footer">
   <footer class="footer bg-white">
-    <div class="container-footer py-5">
-      <div class="row">
-        <div class="col-12 col-sm-6 col-md-3 mb-4 mb-sm-0">
+    <div class="container-footer">
+      <div class="row align-items-start">
+        <div class="col-xl-3 col-sm-6 col-md-3 mb-4 mb-sm-0">
           <a href="#" target="_blank" class="footer-text">
-            <img th:src="@{~/img/logo footer.png}" alt="Logo" th:width="200">
+            <img th:src="@{~/img/logo footer.png}" alt="Logo" class="img-fluid">
           </a> <br>
-          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur cum, eveniet facilis fugit
-            harum magni maiores mollitia obcaecati optio perspiciatis repellendus sit suscipit voluptatibus?</span>
+          <p style="line-height: 22px; font-size: 14px; padding-top: 10px; font-weight: 400;">Lorem ipsum dolor sit
+            amet, consectetur
+            adipiscing elit. Nullam eget mollis mi. Suspendisse ut cursus ligula, non
+            aliquet magna. Etiam suscipit commodo facilisis. Nulla sit amet feugiat massa
+          </p>
           <div class="social-icon my-3">
-            <!--            <a href="javascript:void(0)" class="btn btn-icon btn-sm btn-facebook me-2"-->
-            <!--              ><i class="ti ti-brand-facebook"></i-->
-            <!--            ></a>-->
-            <!--            <a href="javascript:void(0)" class="btn btn-icon btn-sm btn-twitter me-2"-->
-            <!--              ><i class="ti ti-brand-twitter"></i-->
-            <!--            ></a>-->
-            <!--            <a href="javascript:void(0)" class="btn btn-icon btn-sm btn-youtube me-2"-->
-            <!--              ><i class="ti ti-brand-youtube"></i-->
-            <!--            ></a>-->
             <a href="" class="me-2">
               <img th:src="@{~/img/icon/facebook.png}" alt="facebook">
             </a>
@@ -30,7 +24,12 @@
             </a>
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 mb-4 mb-md-0 ">
+
+        <div class="col-xl-1">
+
+        </div>
+
+        <div class="col-xl-2 col-sm-6 col-md-3 mb-4 mb-md-0">
           <a href="">
             <h5 class="pb-2">Fondasi Agama</h5>
           </a>
@@ -45,7 +44,7 @@
           </a>
         </div>
 
-        <div class="col-12 col-sm-6 col-md-3 mb-4 mb-md-0">
+        <div class="col-xl-2 col-sm-6 col-md-3 mb-4 mb-md-0">
           <a href="">
             <h5 class="pb-2">Kebijakan Privasi</h5>
           </a>
@@ -57,15 +56,19 @@
           </a>
         </div>
 
-        <div class="col-12 col-sm-6 col-md-3 mb-4 mb-sm-0">
+        <div class="col-xl-1">
+
+        </div>
+
+        <div class="col-xl-3 col-sm-6 col-md-2 mb-4 mb-sm-0">
           <a href="#" target="_blank" class="footer-text">
-            <img th:src="@{~/img/sarung-mangga.png}" alt="Logo">
-          </a> <br> <br>
-          <span>PT Panggung Jaya Indah Textile</span> <br>
-          <span>(PT Pajitex) @
+            <img th:src="@{~/img/sarung-mangga.png}" alt="Logo" width="185px" height="67px">
+          </a>
+          <p style="padding-top: 38px;" class="mb-0">PT Panggung Jaya Indah Textile</p>
+          <p class="mb-0">(PT Pajitex) @
             <script>document.write(new Date().getFullYear()); </script> All Right Reserved
-          </span> <br> <br>
-          <p class="pt-3">Develop And Maintained by Highfast</p>
+          </p>
+          <p style="padding-top: 24px;">Develop And Maintained by Highfast</p>
         </div>
 
 
