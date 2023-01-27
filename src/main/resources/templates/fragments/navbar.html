@@ -1,17 +1,20 @@
-<nav class="navbar navbar-expand-lg bg-white" xmlns:th="http://www.thymeleaf.org" th:fragment="navbar">
+<nav class="navbar navbar-expand-lg bg-white mt-3" xmlns:th="http://www.thymeleaf.org" th:fragment="navbar">
     <!--    bg-body-tertiary-->
     <div class="container-header w-100">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-xl-6 col-lg-6 col-md-10">
-                <div class="d-flex align-items-center">
-                    <a class="navbar-brand mr-2" href="#">
-                        <img th:src="@{~/img/logo.png}" alt="">
-                    </a>
-                    <form class="py-2 w-25" role="search">
-                        <input class="form-control me-2 d-md-block d-none d-sm-block" type="search"
-                            placeholder="Discover news,articles, and more" aria-label="Search"
-                            style="background-color: #F5C76133;">
-                    </form>
+                <div class="d-flex justify-content-around pl-sm-1 pr-sm-1 align-items-center"
+                    style="padding-left: 10px; padding-right: 10px">
+                    <div class="d-flex w-100 align-items-center">
+                        <a class="navbar-brand mr-2" href="#">
+                            <img th:src="@{~/img/logo.png}" alt="">
+                        </a>
+                        <form class="py-2 w-25" role="search">
+                            <input class="form-control me-2 d-md-block d-none d-sm-block" type="search"
+                                placeholder="Discover news,articles, and more" aria-label="Search"
+                                style="background-color: #F5C76133;">
+                        </form>
+                    </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
